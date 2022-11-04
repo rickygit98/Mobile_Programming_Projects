@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnimalSound">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/border2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="-70dp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:fontFamily="@font/grobold"
+        android:padding="6dp"
+        android:textAlignment="center"
+        android:text="ANIMAL SOUND"
+        android:textColor="@color/fourth"
+        android:background="@color/primary"/>
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:fontFamily="@font/candybeans"
+        android:textColor="@color/text"
+        android:textAlignment="center"
+        android:text="Collection of animal sounds"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        android:layout_marginTop="8dp"
+        />
+    <TableLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/subtitle">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/primary">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/lionBtn"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/lion"
+                    android:scaleType="fitCenter"
+                    android:backgroundTint="@color/white"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/grobold"
+                    android:text="Lion"
+                    android:textAlignment="center"
+                    android:textSize="18dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                app:cardBackgroundColor="@color/primary">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/goatBtn"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/goat"
+                        android:backgroundTint="@color/white"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/grobold"
+                        android:text="Goat"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/primary">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/horseBtn"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/horse"
+                        android:scaleType="fitCenter"
+                        android:backgroundTint="@color/white"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/grobold"
+                        android:text="Horse"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                app:cardBackgroundColor="@color/primary">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/roosterBtn"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/rooster"
+                        android:backgroundTint="@color/white"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/grobold"
+                        android:text="Rooster"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/primary"
+                android:padding="4dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/wolfBtn"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/wolf"
+                        android:scaleType="fitCenter"
+                        android:backgroundTint="@color/white"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/grobold"
+                        android:text="Wolf"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                app:cardBackgroundColor="@color/primary">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/catBtn"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:scaleType="fitCenter"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/cat" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:fontFamily="@font/grobold"
+                        android:text="Cat"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

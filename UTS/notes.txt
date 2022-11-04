@@ -1,0 +1,25 @@
+Buatlah sebuah aplikasi dengan tema yang telah ditentukan anda dapat memilih
+
+1. Buatlah aplikasi yang dapat membantu pembelajaran bahasa inggris untuk anak-anak dengan desain dan tampilan yang menarik
+
+Inputan berupa: Tombol-tombol yang diberikan gambar dan desain yang menarik untuk anak-anak kemudian anak dapat mudah untuk menggunakannya. Terdapat 2 menu utama:
+a. Menu suara– disini ditampilkan gambar-gambar hewan / alat music yang apabila ditekan anak mengeluarkan suara yang sesuai
+b. Menu StoryTelling – disini terdapat cerita anak-anak seperti si kancil atau yang dapat dibaca secara langsung dan terdapat tombol untuk membacakan cerita tersebut menggunakan Text – To Speech
+Output yang dihasilkan berupa : Suara dari object yang diberikan minimal ada 5 gambar dan suara dan Text To Speech untuk story telling / cerita anak-anak.
+Point Aplikasi
+Aplikasi dapat melakukan menampilkan menu yang diminta, serta memiliki desain yang menarik. Diharapkan semua fitur bias berfungsi dengan baik untuk menjalankan suara.
+
+2. Buatlah aplikasi yang dapat membantu test dalam bahasa inggris pada pronounciation dan listening.
+
+inputan berupa: seperti buku pembelajaran bahasa inggris, namun dapat melafalkan tulisan dari cerita yang ada dalam listening tersebut. terdapat 2 fitur utama:
+
+a. Menu reading - disini dapat belajar dengan membaca dan dapat mendengarkan percakapan singkat dalam bahasa inggris menggunakan Text-to-Speech.
+
+b. Menu pronounciation - disini sistem memberikan kalimat, kemudian anda bisa mencoba membaca kalimat tersebut dan dipahami oleh sistem, apabila kalimatnya sesuai,maka akan diberikan scor benar. apabila pelafalannya kurang baik, dan tidak mampu dipahami sistem akan dianggap salah. menggunakan Speech to text.
+
+Output yang dihasilkan berupa : ada reading dari text yang telah ditentukan, kemudian mampu mendengarkan suara inputan kita, untuk dibandingkan dengan hasil yang seharusnya.
+
+Point aplikasi:
+
+Aplikasi dapat melakukan menampilkan menu yang diminta, serta memiliki desain yang menarik. Diharapkan semua fitur bias berfungsi dengan baik untuk menjalankan suara dan bisa mendengarkan perintah kita.
+
